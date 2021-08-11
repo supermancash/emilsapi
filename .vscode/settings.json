@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/1a7ae342-5623-448b-9c45-9d98a5e23d28/resourceGroups/EmilsResources/providers/Microsoft.Web/sites/emilsapi",
+    "appService.deploySubpath": "."
+}
