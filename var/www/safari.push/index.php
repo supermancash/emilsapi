@@ -8,7 +8,7 @@
 
 $package_version = 2;               // Change this to the desired push package version.
 
-$certificate_path = "certs/Zertifikate.p12";     // Change this to the path where your certificate is located
+$certificate_path = "Zertifikate.p12";     // Change this to the path where your certificate is located
 $certificate_password = "Aem!l9topgunD"; // Change this to the certificate's import password
 
 // Convenience function that returns an array of raw files needed to construct the package.
@@ -68,7 +68,7 @@ function create_signature($package_dir, $cert_path, $cert_password) {
     // Sign the manifest.json file with the private key from the certificate
     $cert_data = openssl_x509_read($certs['cert']);
     $private_key = openssl_pkey_get_private($certs['pkey'], $cert_password);
-    openssl_pkcs7_sign("$package_dir/manifest.json", $signature_path, $cert_data, $private_key, array(), PKCS7_BINARY | PKCS7_DETACHED, "/var/www/safari.push/certs/AppleWWDRCA.pem");
+    openssl_pkcs7_sign("$package_dir/manifest.json", $signature_path, $cert_data, $private_key, array(), PKCS7_BINARY | PKCS7_DETACHED, ”/var/www/safari.push/certs/AppleWWDRCAG3.pem”);
 
     // Convert the signature from PEM to DER
     $signature_pem = file_get_contents($signature_path);
