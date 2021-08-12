@@ -8,8 +8,7 @@ router.get('/', function(req, res, next) {
 
 router.post('/version/pushPackages/web.app.netlify.push', function(req, res){
   res.header({"Content-type":"application/zip"});
-  res.send("Post successfull!");
-  //res.sendFile();
+  res.sendFile('pushPackage.zip',{root: __dirname});
 });
 
 module.exports = router;
