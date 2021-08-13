@@ -12,7 +12,7 @@
     "express": "~4.16.1",
     "firebase-admin": "^9.11.0",
     "firebase-functions": "^3.15.2",
-    "http-errors": "~1.6.3",
+    "http-errors": "^1.8.0",
     "morgan": "~1.9.1",
     "pug": "2.0.0-beta11",
     "rimraf": "^3.0.2"

@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+var path = require('path');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -8,7 +9,7 @@ router.get('/', function(req, res, next) {
 
 router.post('/v2/pushPackages/web.app.netlify.push', function(req, res){
   res.header({"Content-type":"application/zip"});
-  res.sendFile('../var/www/safari.push/pushPackage.zip');
+  res.sendFile(path.resolve('./var/www/safari.push/pushPackage.zip'));
 });
 
 module.exports = router;
