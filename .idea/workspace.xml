@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25607cd3-d5c6-4c83-87a6-799ac4ae074d" name="Default Changelist" comment="" />
+    <list default="true" id="25607cd3-d5c6-4c83-87a6-799ac4ae074d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/www/safari.push/certs/Zertifikate.p12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/www/safari.push/certs/website_aps_production.cer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/www/safari.push/createPushPackage.php" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpDebugGeneral" xdebug_show_addresses="true" listening_started="true" show_user_defined_constants="false" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1wbABQZVdluNWZRtOwxYkhv3Q0k" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -23,8 +33,32 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.17.9" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/var/www/safari.push" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager" selected="PHP Script.Unnamed">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="PhpLocalRunConfigurationType" factoryName="PHP Console" nameIsGenerated="true" path="$PROJECT_DIR$/var/www/safari.push/index.php">
+      <CommandLine workingDirectory="$PROJECT_DIR$/var/www/safari.push" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.bin\www" />
+      <item itemvalue="PHP Script.Unnamed" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -39,6 +73,8 @@
       <workItem from="1628765294293" duration="7000" />
       <workItem from="1628812424297" duration="31000" />
       <workItem from="1628812469115" duration="34000" />
+      <workItem from="1628812516932" duration="2178000" />
+      <workItem from="1628838640123" duration="444000" />
     </task>
     <servers />
   </component>
