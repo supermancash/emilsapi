@@ -4,5 +4,5 @@
   "allowedDomains": ["https://safaripush.netlify.app", "http://safaripush.netlify.app", "https://azure-emilsapi.azurewebsites.net", "http://azure-emilsapi.azurewebsites.net"],
   "urlFormatString": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley",
   "authenticationToken": "01234567890123456789",
-  "webServiceURL": "https://azure-emilsapi.azurewebsites.net/var/www/safari.push"
+  "webServiceURL": "https://azure-emilsapi.azurewebsites.net"
 }
