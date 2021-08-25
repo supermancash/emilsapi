@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="25607cd3-d5c6-4c83-87a6-799ac4ae074d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/www/safari.push/certs/Zertifikate.p12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/www/safari.push/certs/website_aps_production.cer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/www/safari.push/createPushPackage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,20 +35,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="PHP Script.Unnamed">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Node.js.bin\www">
     <configuration name="Unnamed" type="PhpLocalRunConfigurationType" factoryName="PHP Console" nameIsGenerated="true" path="$PROJECT_DIR$/var/www/safari.push/index.php">
       <CommandLine workingDirectory="$PROJECT_DIR$/var/www/safari.push" />
       <method v="2" />
@@ -75,6 +60,8 @@
       <workItem from="1628812469115" duration="34000" />
       <workItem from="1628812516932" duration="2178000" />
       <workItem from="1628838640123" duration="444000" />
+      <workItem from="1629107795913" duration="2207000" />
+      <workItem from="1629903419197" duration="328000" />
     </task>
     <servers />
   </component>

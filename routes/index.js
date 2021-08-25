@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.post('/v2/pushPackages/web.app.netlify.push', function(req, res){
+router.post('/v2/pushPackages/web.app.netlify.webpush', function(req, res){
   res.header({"Content-type":"application/zip"});
   res.sendFile(path.resolve('./var/www/safari.push/pushPackage.zip'));
 });
